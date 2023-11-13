@@ -1,0 +1,208 @@
+@media (min-width: 1024px) {
+  section > .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 20px 50px;
+  }
+
+  #banner {
+    overflow: hidden;
+  }
+
+  #nav-bar .container {
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+  }
+
+  #nav-bar .container a {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  #nav-bar .container div {
+    border-radius: 50%;
+    position: absolute;
+    padding: 8px;
+    border: 1px solid #82868b38;
+    top: -50px;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #nav-bar .container div img {
+    border-radius: 50%;
+    width: 120px;
+  }
+
+  #nav-bar .container a {
+    border-right: 1px solid #e3e2e2;
+    border-left: 1px solid #e3e2e2;
+  }
+
+  /* Con thử 2 và 3 không có border ở thanh navigation */
+  #nav-bar .container a:nth-child(2),
+  #nav-bar .container a:nth-child(4) {
+    border: none;
+  }
+
+  #nav-bar .container a:nth-child(2) {
+    margin-right: 100px;
+  }
+
+  #nav-bar .container a:nth-child(4) {
+    margin-left: 100px;
+  }
+
+  #nav-bar .container div span {
+    font-weight: 200;
+    opacity: 0.8;
+  }
+
+  /* about */
+  #about .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  #target,
+  #personal-info {
+    padding-bottom: 66px;
+  }
+
+  #target {
+    padding-left: 233px;
+    padding-right: 20px;
+  }
+
+  #personal-info {
+    padding-left: 20px;
+  }
+
+  /* Job-info */
+  #job-info .container {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .rating-bar-color,
+  .rating-bar-none_color {
+    width: 76px;
+  }
+
+  @media (min-width: 1022px) and (max-width: 1200px) {
+    .rating-bar-color,
+    .rating-bar-none_color {
+      width: 54px;
+    }
+  }
+
+  table {
+    position: relative;
+    top: -3px;
+  }
+
+  .skill-description {
+    margin-top: 16px;
+  }
+
+  .skill-description h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /*  */
+
+  .certificate-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .certificate-description div {
+    display: grid;
+  }
+
+  /* Các thẻ con là số chẵn có border-left là 1px */
+  .certificate-description div:nth-child(even) img {
+    border-left: 1px solid #d6c08d;
+  }
+  .certificate-description div:nth-child(even) img,
+  .certificate-description div:nth-child(even) p,
+  .certificate-description div:nth-child(even) h3 {
+    padding-left: 22px;
+  }
+
+  .certificate-description div:nth-child(even) img {
+    width: 95%;
+  }
+
+  .certificate-description div h3 {
+    margin-top: 4px;
+    opacity: 0.7;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .certificate-description div p {
+    color: #757b81;
+    font-size: 14px;
+  }
+  .certificate-description img {
+    grid-column: 1 / 1;
+    grid-row: 1 / span 3;
+    width: 90%;
+  }
+
+  /* PROJECT */
+  .project-list {
+    display: flex;
+    gap: 32px;
+  }
+
+  table {
+    height: 184px;
+  }
+
+  .project-detail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 14px 28px;
+    font-size: 14px;
+    border: 1px solid #757b8136;
+    top: -3px;
+    position: relative;
+  }
+  .project-detail span {
+    margin-left: 20px;
+    color: #757b81;
+  }
+
+  .project-detail .time {
+    padding: 5px 14px;
+  }
+
+  .project-detail span i {
+    margin-right: 8px;
+  }
+
+  .project-description {
+    width: 33.3333%;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    .project-description:last-child table tr:last-child th {
+      padding-bottom: 41px;
+    }
+    .project-description:first-child table tr:last-child th {
+      padding-bottom: 66px;
+    }
+  }
+}

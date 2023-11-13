@@ -1,0 +1,91 @@
+#card {
+    flex: 1;
+}
+
+#card .city-type:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#card .city-type:hover img {
+    filter: brightness(50%);
+    transform: scale(1.01);
+    transition: all 0.2s linear;
+}
+
+
+
+#card .city-type:hover .card__content {
+    margin-bottom: 2px;
+    transition: all 0.2s linear;
+}
+
+#card .city-type {
+    transition: all 0.2s linear;
+    border-radius: 14px;
+}
+
+#card .city-type img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+#card .city-type .card__content {
+    bottom: 0;
+    position: absolute;
+}
+
+#card .city-type .card__content p {
+    margin-bottom: 0;
+}
+
+#card .city-type .card__title,
+#card .city-type .card__sub-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 1.1rem;
+}
+
+#card .other-type img {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    height: 9.5rem;
+}
+
+#card .other-type:hover img {
+    filter: brightness(50%);
+    transform: scale(1.01);
+    transition: all 0.2s linear;
+}
+
+#card .other-type {
+    transition: all 0.2s linear;
+}
+
+#card .other-type:hover {
+    cursor: pointer;
+}
+
+#card .other-type .card__content {
+    margin-left: 4px;
+}
+
+#card .other-type .card__content p {
+    margin-bottom: 0;
+}
+
+#card .other-type .card__title {
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+#card .other-type .card__sub-text {
+    opacity: 0.8;
+}
+
+#card .other-type .card__title,
+#card .other-type .card__sub-text {
+    color: #000;
+}

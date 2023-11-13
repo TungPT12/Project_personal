@@ -1,0 +1,6 @@
+* Admin account
+    username: TungPT
+    password: 123456
+* User account
+    username: abc
+    password: 123456

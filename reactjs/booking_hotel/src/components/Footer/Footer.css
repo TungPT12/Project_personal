@@ -1,0 +1,16 @@
+#footer {
+    padding-bottom: 7rem;
+}
+
+#footer .container {
+    padding: 10px 88px;
+}
+
+#footer a {
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #567faa;
+    margin-bottom: 8px;
+    font-weight: 500;
+}

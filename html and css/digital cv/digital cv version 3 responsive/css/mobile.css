@@ -1,0 +1,132 @@
+@media (max-width: 767px) {
+  #banner {
+    overflow: hidden;
+  }
+
+  #nav-bar .container {
+    flex-direction: column;
+    padding: 0px 8px;
+  }
+
+  #nav-bar .container a {
+    text-align: initial;
+    display: block;
+    padding: 8px 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  #nav-bar .container div {
+    display: none;
+  }
+
+  /* about */
+  #about .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  #target,
+  #personal-info {
+    padding-bottom: 66px;
+  }
+
+  #target {
+    padding-left: 54px;
+    padding-right: 20px;
+  }
+
+  #personal-info {
+    padding-left: 60px;
+  }
+
+  /* Job-info */
+  #job-info .container {
+    grid-template-columns: 1fr;
+  }
+
+  .rating-bar-color,
+  .rating-bar-none_color {
+    width: 50px;
+  }
+
+  .skill-description {
+    margin-top: 16px;
+  }
+
+  .skill-description h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /*  */
+
+  #certificate {
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+
+  .certificate-description {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-description div {
+    display: flex;
+  }
+
+  .certificate-description div h3 {
+    opacity: 0.7;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 8px;
+    margin: 0;
+    line-height: 2.6em;
+  }
+  .certificate-description div p {
+    color: #757b81;
+    font-size: 14px;
+    margin: 0;
+  }
+  .certificate-description img {
+    width: 100%;
+  }
+
+  /* PROJECT */
+  #project .container {
+    min-width: 100%;
+  }
+
+  table {
+    height: 280px;
+  }
+
+  .project-description {
+    margin-bottom: 44px;
+  }
+
+  .project-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 14px;
+    font-size: 14px;
+    border: 1px solid #757b8136;
+  }
+  .project-detail span {
+    /* display: ; */
+    color: #757b81;
+    margin: 4px 0;
+  }
+
+  .project-detail .time {
+    text-align: center;
+    padding: 4px 18px;
+  }
+
+  .project-detail span i {
+    margin-right: 8px;
+  }
+}

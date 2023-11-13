@@ -1,0 +1,9 @@
+.search__popup__input-booking-day {
+    left: 0;
+    top: 33px;
+    z-index: 1;
+}
+
+.search__popup__input-booking-day .rdrMonth {
+    width: 100%;
+}

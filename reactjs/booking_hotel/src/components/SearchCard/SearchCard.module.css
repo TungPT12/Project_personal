@@ -1,0 +1,61 @@
+.search-card {
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+}
+
+.search-card__img {
+    flex: 1;
+}
+
+.search-card__info {
+    flex: 3;
+    font-size: 12px;
+}
+
+.hotel-name {
+    color: #1276c6;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
+
+.rate__text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.rating-number {
+    background-color: #003580;
+    color: #fff;
+    padding: 2px 4px;
+}
+
+.availability-button {
+    background-color: #0071c2;
+    font-size: 14px;
+    padding: 8px 0px;
+    border-radius: 4px;
+}
+
+.tag {
+    width: fit-content;
+    border-radius: 6px;
+}
+
+.font-size-0 {
+    font-size: 0.8rem;
+}
+
+.description {
+    font-weight: 700;
+}
+
+.cancel-msg {
+    font-weight: 500;
+}
+
+.free-cancel-tag {
+    font-weight: 700;
+}

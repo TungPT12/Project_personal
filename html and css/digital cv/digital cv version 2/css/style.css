@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Rubik:wght@500;700&display=swap");
+* {
+  margin: 0px;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+.job-position {
+  opacity: 0.7;
+}
+
+/* Banner */
+#banner {
+  overflow: hidden;
+  height: 500px;
+  background-image: linear-gradient(
+    rgba(34, 34, 34, 0.6),
+    rgba(34, 34, 34, 0.6)
+  );
+}
+
+#banner img {
+  position: relative;
+  top: -50px;
+  z-index: -1;
+  left: -50px;
+}
+
+.banner_introduce {
+  position: absolute;
+  top: 15%;
+  left: 44%;
+  text-align: center;
+  color: #fff;
+}
+
+.full-name {
+  font-size: 35px;
+}
+
+/* Navigation */
+
+#nav-bar {
+  position: relative;
+}
+#nav-bar .container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+}
+#nav-bar .container a {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#nav-bar .container a i {
+  color: #26a1dd;
+}
+
+#nav-bar .container div {
+  border-radius: 50%;
+  position: absolute;
+  padding: 8px;
+  border: 1px solid #82868b38;
+  top: -50px;
+  background-color: #fff;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav-bar .container div img {
+  border-radius: 50%;
+  width: 120px;
+}
+
+/* #nav-bar .container a,
+#nav-bar .container div {
+  border-left: 1px solid #e3e2e2;
+  border-right: 1px solid #e3e2e2;
+} */
+#nav-bar .container a {
+  border-right: 1px solid #e3e2e2;
+}
+
+/* Con thử 2 và 3 không có border ở thanh navigation */
+#nav-bar .container a:nth-child(2),
+#nav-bar .container a:nth-child(3) {
+  border: none;
+}
+
+#nav-bar .container a:nth-child(2) {
+  margin-right: 200px;
+}
+
+#nav-bar .container a:nth-child(3) {
+  margin-left: 200px;
+}
+
+#nav-bar .container div h1 {
+  font-weight: 500;
+  font-size: 25px;
+}
+#nav-bar .container div span {
+  font-weight: 200;
+  opacity: 0.8;
+}
+
+/* about */
+#about .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+#target,
+#personal-info {
+  padding-bottom: 66px;
+}
+
+#target {
+  padding-left: 233px;
+  padding-right: 20px;
+  background-color: #f5f5f5;
+  padding-top: 86px;
+}
+
+#target p,
+#personal-info ul li {
+  color: #82868b;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#personal-info {
+  padding-left: 20px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  padding-top: 66px;
+}
+
+#personal-info ul {
+  padding: 0;
+}
+#personal-info ul li {
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+#personal-info ul li span {
+  color: #000;
+}
+
+.section-title {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.personal-social-icon {
+  margin-top: 32px;
+}
+
+.personal-social-icon i:first-child {
+  padding-left: 0px;
+}
+.personal-social-icon i {
+  color: #26a1dd;
+  padding: 0px 4px;
+}
+
+/* Job-info */
+#job-info .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.experience,
+.education,
+.activity,
+.hobbies,
+.language,
+.skill {
+  padding: 5px 32px 75px;
+  border: 1px solid;
+}
+.experience ul,
+.education ul,
+.activity ul {
+  padding-left: 16px;
+}
+
+.job-info_title {
+  padding-top: 44px;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-end;
+}
+.job-info_title span {
+  flex: 3;
+}
+
+.job-info_title i {
+  font-size: 42px;
+  flex: 1;
+  opacity: 0.6;
+}
+
+#job-info .description {
+  padding-top: 44px;
+  font-size: 14px;
+  color: #757b81;
+  font-weight: 400;
+}
+
+#job-info .description h3 {
+  color: #353434;
+  font-size: 18px;
+}
+
+#job-info p {
+  line-height: 22px;
+}
+
+#job-info .time {
+  font-style: italic;
+  line-height: 32px;
+}
+
+#job-info .time span {
+  color: #fff;
+  background-color: #26a1dd;
+  padding: 2px 12px;
+  border-radius: 8px;
+  margin-left: 3px;
+}
+
+::marker {
+  color: #26a1dd;
+  font-size: 22px;
+}
+
+.hobbies ul {
+  margin-top: 22px;
+  padding: 0;
+  display: flex;
+}
+
+.hobbies ul li {
+  list-style: none;
+  margin-right: 22px;
+  text-align: center;
+  line-height: 1.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hobbies .hobbies-list li i {
+  color: #26a1dd;
+  border: 1px solid #26a1dd;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.hobbies .hobbies-list li:last-child {
+  margin-right: 0px;
+}
+.hobbies ul li span {
+  display: block;
+  color: #757b81;
+  font-size: 14px;
+}
+
+.rating-bar-color,
+.rating-bar-none_color {
+  display: inline-block;
+  width: 76px;
+  height: 5px;
+  border-radius: 2px;
+}
+
+/* Thanh cấp độ kĩ năng*/
+.rating-bar-none_color {
+  background-color: #e5e5e5;
+}
+
+/* Thanh cấp độ kĩ năng*/
+.rating-bar-color {
+  background-color: #3666e2;
+}
+
+.skill-description {
+  margin-top: 16px;
+}
+
+.skill-description h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*  */
+
+.certificate-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.certificate-description div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid #d6c08d;
+  padding: 44px 0px;
+}
+
+.certificate-description div:last-child {
+  border-bottom: none;
+}
+
+/* Các thẻ con là số chẵn có border-left là 1px */
+.certificate-description div:nth-child(even) img {
+  border-left: 1px solid #d6c08d;
+}
+.certificate-description div:nth-child(even) img,
+.certificate-description div:nth-child(even) p,
+.certificate-description div:nth-child(even) h3 {
+  padding-left: 22px;
+}
+
+.certificate-description div h3 {
+  opacity: 0.7;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.certificate-description div p {
+  color: #757b81;
+  font-size: 14px;
+}
+.certificate-description img {
+  grid-column: 1 / 1;
+  grid-row: 1 / span 3;
+  width: 90%;
+}
+
+/* PROJECT */
+.project-list {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+}
+
+.project-list img {
+  width: 100%;
+}
+
+table {
+  height: 184px;
+  border: 1px solid #757b8136;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  vertical-align: text-top;
+  padding: 10px 0px;
+  border-bottom: 1px solid #757b8136;
+  text-align: start;
+  padding: 9px 0px 0px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5c5757b3;
+}
+
+td {
+  width: 75%;
+}
+
+th {
+  width: 25%;
+  margin-left: 10px;
+}
+
+.project-name {
+  text-transform: uppercase;
+  padding: 14px 28px;
+  border: 1px solid #757b8136;
+}
+
+.project-name,
+.project-detail,
+table {
+  position: relative;
+  top: -3px;
+}
+
+.project-detail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 14px 28px;
+  font-size: 14px;
+  border: 1px solid #757b8136;
+  top: -3px;
+  position: relative;
+}
+.project-detail span {
+  margin-left: 20px;
+  color: #757b81;
+}
+
+.project-detail .time {
+  background-color: #26a1dd;
+  border-radius: 24px;
+  color: #fff;
+  padding: 5px 14px;
+}
+
+.project-detail span i {
+  margin-right: 8px;
+}
+
+/* footer */
+#footer ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer li {
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #757b81;
+  margin-right: 24px;
+}
+
+#footer li i {
+  font-size: 34px;
+  color: #26a1dd;
+  margin-right: 8px;
+}

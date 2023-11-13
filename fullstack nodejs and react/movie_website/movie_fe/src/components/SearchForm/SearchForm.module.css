@@ -1,0 +1,38 @@
+.search-form {
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.form {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.form-input {
+    border-bottom: 3px solid #16bde8;
+}
+
+.form-input input {
+    background-color: transparent;
+    outline: none;
+}
+
+.search-icon {
+    display: block;
+    width: 1.7rem;
+}
+
+.form-action {
+    padding: 2.3rem 0;
+}
+
+.form-action button {
+    padding: 0.5rem 2rem;
+    border: none;
+    text-transform: uppercase;
+}
+
+.search-btn {
+    background-color: #16bde8;
+    color: #fff;
+}

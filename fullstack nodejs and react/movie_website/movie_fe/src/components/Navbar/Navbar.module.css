@@ -1,0 +1,22 @@
+.navbar {
+    height: fit-content;
+    transition: background 0.5s linear;
+    z-index: 9999;
+    font-weight: 700;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.logo {
+    color: #fc0101;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.search-icon {
+    display: block;
+    width: 1.7rem;
+}

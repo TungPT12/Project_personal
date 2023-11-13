@@ -1,0 +1,343 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  #banner img {
+    width: 100%;
+  }
+
+  #nav-bar .container {
+    justify-content: center;
+    padding: 0px 8px;
+  }
+
+  #nav-bar .container a {
+    padding: 0px 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  #nav-bar .container div {
+    display: none;
+  }
+
+  #nav-bar .container a {
+    border-right: 1px solid #e3e2e2;
+    border-left: 1px solid #e3e2e2;
+  }
+
+  /* Con thử 2 và 3 không có border ở thanh navigation */
+  #nav-bar .container a:nth-child(2),
+  #nav-bar .container a:nth-child(4) {
+    border: none;
+  }
+
+  #nav-bar .container a:nth-child(2) {
+    border-right: 1px solid #e3e2e2;
+    margin-right: 10px;
+  }
+
+  #nav-bar .container a:nth-child(4) {
+    margin-left: 10px;
+    border-left: 1px solid #e3e2e2;
+  }
+
+  /* about */
+  #about .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  #target,
+  #personal-info {
+    padding-bottom: 66px;
+  }
+
+  #target {
+    padding-left: 54px;
+    padding-right: 20px;
+  }
+
+  #personal-info {
+    padding-left: 60px;
+  }
+
+  /* Job-info */
+  #job-info .container {
+    padding: 0px 53px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: none;
+    column-gap: 20px;
+    align-items: flex-start;
+  }
+
+  .activity {
+    grid-column: 2 / 2;
+    grid-row: 1 / -1;
+  }
+
+  .skill {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+  }
+
+  .language {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+    position: relative;
+    top: -204px;
+  }
+
+  .education {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    position: relative;
+    top: -28px;
+  }
+
+  .hobbies {
+    grid-row: 3 / 3;
+    grid-column: 2 / 2;
+    position: relative;
+    top: -30px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1023px) {
+    .language {
+      top: -50%;
+    }
+  }
+  @media (min-width: 740px) and (max-width: 766px) {
+    .education,
+    .hobbies {
+      top: -83px;
+    }
+
+    .language {
+      top: -118px;
+    }
+  }
+  @media (min-width: 767px) and (max-width: 768px) {
+    .language {
+      top: -26%;
+    }
+
+    .education,
+    .hobbies {
+      top: -83px;
+    }
+  }
+  @media (min-width: 766px) and (max-width: 767px) {
+    .language {
+      top: -26%;
+    }
+
+    .education,
+    .hobbies {
+      top: -83px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 769px) {
+    .language {
+      top: -56%;
+    }
+
+    .education,
+    .hobbies {
+      top: -4%;
+    }
+  }
+
+  .hobbies ul {
+    flex-flow: row wrap;
+  }
+
+  .rating-bar-color,
+  .rating-bar-none_color {
+    width: 50px;
+  }
+
+  .skill-description {
+    margin-top: 16px;
+  }
+
+  .skill-description h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /*  */
+
+  .certificate-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .certificate-description div {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d6c08d;
+    padding: 44px 0px;
+  }
+
+  .certificate-description div:last-child {
+    border-bottom: none;
+  }
+
+  /* Các thẻ con là số chẵn có border-left là 1px */
+  .certificate-description div:nth-child(even) img,
+  .certificate-description div:nth-child(even) p,
+  .certificate-description div:nth-child(even) h3 {
+    border-left: 1px solid #d6c08d;
+  }
+  .certificate-description div:nth-child(even) img,
+  .certificate-description div:nth-child(even) p,
+  .certificate-description div:nth-child(even) h3 {
+    padding-left: 22px;
+    margin: 0;
+  }
+
+  .certificate-description div h3 {
+    opacity: 0.7;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 8px;
+    margin: 0;
+    line-height: 2.6em;
+  }
+  .certificate-description div p {
+    color: #757b81;
+    font-size: 14px;
+    margin: 0;
+  }
+  .certificate-description img {
+    grid-column: 1 / 1;
+    grid-row: 1 / span 3;
+    width: 90%;
+  }
+
+  /* PROJECT */
+  #project .container {
+    min-width: 100%;
+  }
+  .project-list {
+    width: 100%;
+  }
+
+  .project-list {
+    display: flex;
+    gap: 32px;
+  }
+
+  .project-description {
+    width: 33.33333%;
+  }
+
+  table {
+    height: 280px;
+  }
+
+  .project-description:first-child table tr:last-child td,
+  .project-description:first-child table tr:last-child th {
+    padding-bottom: 86px;
+  }
+  .project-description:last-child table tr:last-child th {
+    padding-bottom: 41px;
+  }
+
+  @media (min-width: 825px) and (max-width: 848px) {
+    .project-description:last-child table tr:last-child th {
+      padding-bottom: 65px;
+    }
+  }
+
+  @media (min-width: 849px) and (max-width: 983px) {
+    .project-description:last-child table tr:last-child th {
+      padding-bottom: 86px;
+    }
+    .project-description:first-child table tr:last-child th {
+      padding-bottom: 107px;
+    }
+  }
+  @media (min-width: 674px) and (max-width: 696px) {
+    /* .project-description:last-child table tr:last-child th {
+      padding-bottom: 86px;
+    } */
+    .project-description:first-child table tr:last-child th {
+      padding-bottom: 68px;
+    }
+  }
+  @media (min-width: 674px) and (max-width: 710px) {
+    .project-description:last-child table tr:last-child th {
+      padding-bottom: 21px;
+    }
+  }
+
+  @media (min-width: 501px) and (max-width: 577px) {
+    .project-description:first-child table tr:last-child th {
+      padding-bottom: 130px;
+    }
+  }
+  @media (min-width: 606px) and (max-width: 617px) {
+    .project-description:last-child table tr:last-child th {
+      padding-bottom: 46px;
+    }
+    .project-description:first-child table tr:last-child th {
+      padding-bottom: 112px;
+    }
+  }
+  @media (min-width: 637px) and (max-width: 673px) {
+    .project-description:first-child table tr:last-child th {
+      padding-bottom: 112px;
+    }
+  }
+  @media (min-width: 617px) and (max-width: 637px) {
+    .project-description:last-child table tr:last-child th {
+      padding-bottom: 66px;
+    }
+    .project-description:first-child table tr:last-child th {
+      padding-bottom: 132px;
+    }
+  }
+  @media (min-width: 577px) and (max-width: 606px) {
+    .project-description:first-child table tr:last-child th {
+      padding-bottom: 132px;
+    }
+  }
+
+  .project-detail {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 14px 14px;
+    font-size: 14px;
+    border: 1px solid #757b8136;
+    top: -3px;
+    position: relative;
+  }
+  .project-detail span {
+    text-align: center;
+    color: #757b81;
+  }
+
+  .project-detail .time {
+    padding: 5px 14px;
+  }
+
+  .project-detail .position {
+    grid-row: 2 / 2;
+    grid-column: 2 / 2;
+  }
+
+  .project-detail span i {
+    margin-right: 8px;
+  }
+
+  #footer {
+    margin-top: 4px;
+  }
+}

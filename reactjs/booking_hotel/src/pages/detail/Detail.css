@@ -1,0 +1,64 @@
+#detail .container {
+    padding: 0px 88px;
+    font-size: 14px;
+}
+
+#detail .grid__image {
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#detail .fw-500 {
+    font-weight: 500;
+}
+
+#detail .fw-600 {
+    font-weight: 600;
+}
+
+#detail .fw-700 {
+    font-weight: 700;
+}
+
+
+#detail .book-btn {
+    background-color: #0071c2;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+#detail .price__info {
+    background-color: #ebf3ff;
+}
+
+#detail .price__info__title {
+    font-size: 1.1rem;
+}
+
+#detail .price__info__price {
+    font-size: 1.5rem;
+}
+
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}

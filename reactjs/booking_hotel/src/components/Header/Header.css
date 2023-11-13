@@ -1,0 +1,93 @@
+#header {
+  background-color: #003580;
+  color: #fff;
+}
+
+#header .container {
+  padding: 10px 88px;
+}
+
+
+#header .search-form {
+  top: 36px;
+  margin-top: 32px;
+}
+
+
+#header .picker-date,
+#header .picker-quantity {
+  margin-left: 5px;
+}
+
+#header .search-form form {
+  background-color: #fff;
+  border: 3px solid #f8bf1f;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px 0px;
+
+}
+
+#header .search-form form .search-input__place {
+  margin-left: 32px;
+}
+
+#header .search-form form .icon {
+  display: flex;
+  color: #000;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.search-form form .search-input__place input {
+  outline: none;
+  border: none;
+}
+
+.header__input-booking-day {
+  top: 44px;
+  left: 0;
+  z-index: 1;
+}
+
+#header .picker-date .picker-date__holder,
+#header .picker-quantity .picker-quantity__holder {
+  height: fit-content;
+  margin-bottom: 0;
+}
+
+#header .picker-quantity .picker-quantity__holder:nth-child(2),
+#header .picker-quantity .picker-quantity__holder:nth-child(3) {
+  margin-left: 12px;
+}
+
+#header .picker-date {
+  padding-left: 5px;
+  box-sizing: content-box;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#header .picker-date:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+}
+
+#header .header-button {
+  height: fit-content;
+  background-color: #257fc6;
+  font-size: 14px;
+  padding: 12px 10px;
+}
+
+.f-1 {
+  flex: 1;
+}
+
+.search-button {
+  margin-right: 32px;
+  color: #fff;
+  padding: 10px 10px;
+  background-color: #0172c2;
+  border: none;
+  font-size: 12px;
+}

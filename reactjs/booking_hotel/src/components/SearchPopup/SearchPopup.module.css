@@ -1,0 +1,49 @@
+.search-popup {
+    background-color: #febb02;
+    /* margin-right: 10px; */
+    flex: 1;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.search-popup input {
+    outline: none;
+}
+
+.search-popup .destination input,
+.search-popup .checkin-date input {
+    width: 100%;
+    border: none;
+}
+
+.search-popup__option span {
+    opacity: 0.8;
+}
+
+.search-popup__option input {
+    width: 24%;
+}
+
+.search-popup__option .input-option div {
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.search-popup__button {
+    background-color: #0172c2;
+    color: #fff;
+    border: none;
+}
+
+.title-search-popup {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1f1e1ea1;
+}
+
+.picker-date {
+    height: fit-content;
+    font-size: 16px;
+    padding: 5px 4px;
+    cursor: pointer;
+}

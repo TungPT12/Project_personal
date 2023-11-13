@@ -1,0 +1,33 @@
+.title {
+    margin-left: 0.5rem;
+    color: #fff;
+}
+
+.movie-list {
+    margin-bottom: 4rem;
+}
+
+.wrap-item {
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 14px 0px;
+}
+
+.item {
+    margin: 0px 8px;
+    transition: all 0.3s linear;
+    user-select: none
+}
+
+.item:hover {
+    transform: scale(1.07);
+}
+
+.overlay {
+    position: absolute;
+}
+
+.movie-image {
+    color: #fff;
+    border-radius: 8px;
+}
