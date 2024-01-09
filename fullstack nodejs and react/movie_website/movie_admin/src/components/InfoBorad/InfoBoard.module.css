@@ -1,0 +1,33 @@
+.icon-user {
+    border-radius: 4px;
+    background-color: #ffcccc;
+    color: #eb6077;
+}
+
+.icon-order {
+    border-radius: 4px;
+    background-color: #f8ecd0;
+    color: #ecd18d;
+}
+
+.icon-earning {
+    border-radius: 4px;
+    background-color: #cee7ce;
+    color: #4da74d;
+}
+
+.icon-balance {
+    border-radius: 4px;
+    background-color: #e5cae5;
+    color: #b163b1;
+}
+
+.title {
+    color: #9c9c9c;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.statistical {
+    font-weight: 500;
+}

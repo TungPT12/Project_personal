@@ -1,0 +1,81 @@
+.table {
+    border: 1px solid #d9d6d6c7;
+}
+
+
+
+.title {
+    color: #00000070;
+    font-weight: 500;
+}
+
+.header-row {
+    border-bottom: 1px solid #d9d6d6c7;
+}
+
+.header-row div {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #939090;
+    font-weight: 500;
+    border-right: 1px solid #d9d6d6c7;
+}
+
+.header-row div:last-child,
+.body-row div:last-child {
+    border-right: none
+}
+
+
+.body-row {
+    border-bottom: 1px solid #d9d6d6c7;
+}
+
+.body-row div {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #d9d6d6c7;
+    color: #7c7c7c;
+    font-weight: 400;
+    padding: 0.5rem 0;
+}
+
+.btn-add_category {
+    border: 1px solid #0e9d0f;
+    color: #0e9d0f;
+    background-color: #fff;
+    padding: 4px;
+    height: fit-content;
+    border-radius: 4px;
+}
+
+.btn-add_category:hover {
+    background-color: #0e9d0f;
+    color: #fff;
+}
+
+.paging {
+    font-size: 14px;
+    border-top: 1px solid #d9d6d6c7;
+}
+
+.chevron-icon {
+    color: #b6b4b4;
+}
+
+.chevron-icon:hover {
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+.pre-btn,
+.next-btn {
+    background-color: #fff;
+    /* border: 1px solid #00000038; */
+    border: none;
+}

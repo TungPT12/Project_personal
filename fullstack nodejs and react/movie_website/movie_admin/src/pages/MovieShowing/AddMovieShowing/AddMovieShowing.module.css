@@ -1,0 +1,121 @@
+.header-add_hotel {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.add-product {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #f9fbfd !important;
+}
+
+.form {
+    font-size: 14px;
+    column-gap: 12rem;
+    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.title-input,
+.form p {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #b0abab;
+}
+
+.title-input {
+    margin-bottom: 5px;
+}
+
+.input-text {
+    padding-left: 4px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    font-size: 16px;
+    color: #7e7e7e;
+}
+
+.select-box-hotel_form {
+    appearance: none;
+    background-image: url("/public/images/25623.png");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.65rem auto;
+    padding: 8px 4px 8px 4px;
+    font-weight: 400;
+    border: 1px solid #e7e7e7;
+    color: #7e7e7e;
+}
+
+.list-image {
+    row-gap: 8px;
+    column-gap: 8px;
+    overflow: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100px;
+}
+
+
+.image-wrapper {
+    height: 80px;
+}
+
+.close-icon {
+    padding: 0px 2px;
+    color: #fff;
+    background-color: #00000047;
+    border-radius: 30px;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+}
+
+
+.btn-submit {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: #fff;
+    background-color: #008080;
+    width: fit-content;
+    border-radius: 2px;
+}
+
+.btn-submit:hover {
+    opacity: 0.8;
+}
+
+
+.header-add_hotel h3 {
+    color: #d9d9d9;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.short-description,
+.long-description {
+    border: 1px solid #e7e7e7;
+    color: #7e7e7e;
+}
+
+.short-description {
+    height: 5rem;
+}
+
+.long-description {
+    height: 8rem;
+}
+
+.input-text::placeholder,
+.short-description::placeholder,
+.long-description::placeholder {
+    color: #cfcdd0;
+}
+
+
+.first-option {
+    color: #cfcdd0;
+}

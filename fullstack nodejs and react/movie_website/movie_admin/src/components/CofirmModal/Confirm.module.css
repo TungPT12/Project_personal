@@ -1,0 +1,37 @@
+.isOpen {
+    background-color: #00000082;
+    display: block !important;
+    transition: all 2s linear;
+}
+
+.fromTop {
+    /* width: 100px;
+    height: 100px; */
+    /* position: relative; */
+    animation: fromTop 0.5s ease-in-out;
+    /* transition: all 2s linear; */
+}
+
+.animation-from-right {
+    animation: moveFromRight 1s ease-in-out;
+}
+
+@keyframes moveFromRight {
+    0% {
+        transform: translateX(300px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fromTop {
+    0% {
+        transform: translateY(-300px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

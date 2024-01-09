@@ -1,0 +1,31 @@
+.icon {
+    color: #724aa5;
+}
+
+.navbar-title {
+    color: #7f7e7e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tab-name {
+    color: #724aa5;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.isACtiveTab {
+    background-color: #cecece;
+    margin-right: 16px;
+    border-radius: 4px;
+    /* box-shadow: 0.5px 0.5px 8px 0px lightblue, -0.5px -0.5px 8px 0px lightblue, -0.5px 0.5px 8px 0px lightblue, 0.5px -0.5px 8px 0px lightblue; */
+    box-shadow: 0px 0px 1px 0px #cecece;
+}
+
+.logout-btn {
+    background-color: #fff;
+}
+
+.logout-btn:hover {
+    opacity: 0.8;
+}
