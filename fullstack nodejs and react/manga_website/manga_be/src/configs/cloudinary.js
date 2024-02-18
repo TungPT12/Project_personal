@@ -1,10 +1,6 @@
 const cloudinary = require('cloudinary').v2;
-// cloudinary.config({
-//     cloud_name: 'duotqxfvn',
-//     api_key: '849929252588936',
-//     api_secret: 'Jzib0LSz_uSqGLofMtbPGSCML4w'
-// });
-cloudinary.config().cloud_name; 
+
+cloudinary.config().cloud_name;
 
 const uploadImageCloudinary = (buffer) => {
     return new Promise((resolve, reject) => {
