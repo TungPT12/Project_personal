@@ -5,6 +5,12 @@ const mangaSchema = new Schema({
         type: String,
         required: true,
     },
+    otherNames: [
+        {
+            type: String,
+            required: true,
+        }
+    ],
     image: {
         type: String,
         required: true,
@@ -18,6 +24,10 @@ const mangaSchema = new Schema({
         required: true,
     },
     summary: {
+        type: String,
+        required: true,
+    },
+    authors: {
         type: String,
         required: true,
     },

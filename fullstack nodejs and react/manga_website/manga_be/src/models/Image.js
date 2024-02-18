@@ -41,6 +41,10 @@ const imageSchema = new Schema({
         type: Schema.Types.ObjectId,
         required: true,
         ref: "Chapter"
+    },
+    index: {
+        type: Number,
+        required: true,
     }
 })
 
